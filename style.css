@@ -1,0 +1,51 @@
+p{
+    background-color: brown;
+    color: aliceblue;
+    /* height: 200px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding: 50px;
+
+}
+
+.my-class{
+    background-color: black;
+}
+
+#my-id{
+    background-color: blue;
+}
+
+div p{
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+}
+
+#mi, button{
+    background-color: black;
+    color: aliceblue;
+}
+
+#first{
+    background-color: red;
+    /* width: auto; */
+}
+
+#second{
+    background-color: blue;
+    width: 200px;
+}
+
+#third{
+    background-color: orangered;
+    width: 50%;
+}
+div{
+    padding: 10px;
+    margin: 5px;
+}
+
+.sub{
+    text-decoration: underline;
+}
