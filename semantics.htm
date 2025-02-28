@@ -19,55 +19,235 @@
             padding: 10px;
         }
     </style>
-    <header>
-        <section style="display: flex; justify-content: space-between;">
-            <article>
-                <h1>
-                    ESCUELA <br>
-                    <img src="acordeon.png" width="32px" alt=""><b>DE ACORDEON</b> <br>
-                    MARIO TORRES
-                </h1>
-            </article>
-            <article style="align-self: end; justify-items: end;">
-                <aside>
-                    <img src="Facebook.png" alt="">
-                    <img src="Google.png" alt="">
-                    <img src="Youtube.png" alt="">
-                    <img src="Add Mail.png" alt="">
-                </aside>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </article>
-        </section>
-            <nav>
-                <ul>
-                    <li>CLASES</li>
-                    <li>ESCUELA</li>
-                    <li>VENTA DE ACORDEONES</li>
-                    <li>CONTACTO</li>
-                </ul>
-            </nav>
-    </header>
-    <div id="slider" style="height: 300px; width: 100%; border: 1px black solid;"></div>
-    <section style="display: flex; justify-content: center; align-items: center; background-color: goldenrod; height: 300px; width: 100%; border: 1px black solid;">
-        <div style="background-color: white; height: 250px; width: 350px; border: 1px black solid;">
-            <img src="man.jpg" alt="" height="250px" width="350px">
-        </div>
-        <article style="margin-left: 25px; width: 550px;">
-            <h2>CLASES DE ACORDEON</h2>
-            <form action="">
-                <fieldset>
-                    <legend>Acordeonero</legend>
-                    <label for="identificacion">Identificacion:</label>
-                    <input type="number" name="identificacion" id="identificacion" placeholder="Ingrese su identificacion" required>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
-                    <label for="telefono">Telefono:</label>
-                    <input type="text" name="telefono" id="telefono" accesskey="t" tabindex="20" placeholder="Ingrese su telefono" required>
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" accesskey="i" tabindex="10" placeholder="Ingrese su email" required>
-                </fieldset>
-            </form>
-        </article>
-    </section>
+    <table>
+        <tr>
+            <td>
+                <header>
+                    <section style="display: flex; justify-content: space-between;">
+                        <article>
+                            <h1>
+                                ESCUELA <br>
+                                <img src="acordeon.png" width="32px" alt=""><b>DE ACORDEON</b> <br>
+                                MARIO TORRES
+                            </h1>
+                        </article>
+                        <article style="align-self: end; justify-items: end;">
+                            <aside>
+                                <img src="Facebook.png" alt="">
+                                <img src="Google.png" alt="">
+                                <img src="Youtube.png" alt="">
+                                <img src="Add Mail.png" alt="">
+                            </aside>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </article>
+                    </section>
+                        <nav>
+                            <ul>
+                                <li>CLASES</li>
+                                <li>ESCUELA</li>
+                                <li>VENTA DE ACORDEONES</li>
+                                <li>CONTACTO</li>
+                            </ul>
+                        </nav>
+                </header>
+                <div id="slider" style="height: 300px; width: 100%; border: 1px black solid;"></div>
+                <section style="display: flex; justify-content: center; align-items: center; background-color: goldenrod; height: 500px; width: 100%; border: 1px black solid;">
+                    <div style="background-color: white; height: 250px; width: 350px; border: 1px black solid;">
+                        <img src="man.jpg" alt="" height="250px" width="350px">
+                    </div>
+                    <article style="margin-left: 25px; width: 550px;">
+                        <h2>CLASES DE ACORDEON</h2>
+                        <form action="">
+                            <fieldset>
+                                <legend>Acordeonero</legend>
+                                <label for="identificacion">Identificacion:</label><br>
+                                <input type="number" name="identificacion" id="identificacion" placeholder="Ingrese su identificacion" required><br>
+                                <label for="nombre">Nombre:</label><br>
+                                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required><br>
+                                <label for="telefono">Telefono:</label><br>
+                                <input type="text" name="telefono" id="telefono" accesskey="t" tabindex="20" placeholder="Ingrese su telefono" required><br>
+                                <label for="email">Email:</label><br>
+                                <input type="email" name="email" id="email" accesskey="i" tabindex="10" placeholder="Ingrese su email" required><br>
+                                <!-- agregar un textarea para mensaje -->
+                                <label for="mensaje">Mensaje:</label><br>
+                                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
+                            </fieldset>
+                        </form>
+                    </article>
+                </section>
+            </td>
+            <td valign="top">
+                <form action="" >
+                    <fieldset>
+                        <legend>Tiempos</legend>
+                        <label for="utcdatetime">UTC Date Time</label><br>
+                        <input type="datetime" name="utcdatetime" id="utcdatetime"><br>
+                        <!-- localdatetime -->
+                        <label for="localdatetime">Local Date Time</label><br>
+                        <input type="datetime-local" name="localdatetime" id="localdatetime"><br>
+                        <!-- time -->
+                        <label for="time">Time</label><br>
+                        <input type="time" name="time" id="time"><br>
+                        <!-- date -->
+                        <label for="date">Date</label><br>
+                        <input type="date" name="date" id="date"><br>
+                        <!-- week -->
+                        <label for="week">Week</label><br>
+                        <input type="week" name="week" id="week"><br>
+                        <!-- month -->
+                        <label for="month">Month</label><br>
+                        <input type="month" name="month" id="month"><br>
+                        <!-- hiddenInput -->
+                        <label for="hiddenInput">Hidden Input</label><br>
+                        <input type="hidden" name="hiddenInput" id="hiddenInput">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Rangos</legend>
+                        <label for="range">Range</label><br>
+                        <input type="range" name="range" id="range"><br>
+                        <!-- color -->
+                        <label for="color">Color</label><br>
+                        <input type="color" name="color" id="color"><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>checkbox, radio, file</legend>
+                        <label for="checkbox">Checkbox</label><br>
+                        <input type="checkbox" name="checkbox" id="checkbox"><br>
+                        <input type="checkbox" name="checkbox" id="checkbox"><br>
+                        <label for="radio">Radio</label><br>
+                        <input type="radio" name="radio" id="radio"><br>
+                        <input type="radio" name="radio" id="radio"><br>
+                        <label for="file">File</label><br>
+                        <input type="file" name="file" id="file">
+                    </fieldset>
+                </form>
+            </td>
+            <td>
+                <table border="0" cellspacing="10">
+                    <tr>
+                        <td colspan="8" valign="bottom" align="right">100%</td>
+                        
+                    </tr>
+                    <tr>
+                        <th rowspan="12">
+                            <svg width="30" height="100">
+                                <text x="30" y="20" transform="rotate(270, 50, 50)" text-anchor="middle" font-family="Arial" font-size="21">
+                                    costo
+                                </text>
+                            </svg>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox">1000</td>
+                        <td rowspan="11" bgcolor="gray"></td>
+                        <td rowspan="3" valign="bottom" align="center">60%</td>
+                        <td rowspan="7" valign="bottom" align="center">20%</td>
+                        <td rowspan="2" valign="bottom" align="center">70%</td>
+                        <td rowspan="5" valign="bottom" align="center"> 40%</td>
+                        <td rowspan="10" bgcolor="lightgreen">
+                            <svg width="30" height="100">
+                                <text x="50" y="90" transform="rotate(90, 50, 50)" text-anchor="middle" font-family="Arial" font-size="18">
+                                    proveedores
+                                </text>
+                            </svg>
+                        </td>
+                        <td rowspan="4" valign="bottom" align="center">40%</td>
+                    </tr>
+                    <tr>
+                        <td> <input type="checkbox">800</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox">700</td>
+                        <td rowspan="8" bgcolor="yellow">
+                            <svg width="30" height="100">
+                                <text x="50" y="90" transform="rotate(90, 50, 50)" text-anchor="middle" font-family="Arial" font-size="18">
+                                    compras
+                                </text>
+                            </svg>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox">600</td>
+                        <td rowspan="7" bgcolor="cyan">
+                            <svg width="30" height="100">
+                                <text x="50" y="90" transform="rotate(90, 50, 50)" text-anchor="middle" font-family="Arial" font-size="18">
+                                    ventas
+                                </text>
+                            </svg>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox">500</td>
+                        <td rowspan="6" bgcolor="orange">
+                            <svg width="30" height="100">
+                            <text x="50" y="90" transform="rotate(90, 50, 50)" text-anchor="middle" font-family="Arial" font-size="18">
+                                salidas
+                            </text>
+                        </svg>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox">400</td>
+                        <td rowspan="5" bgcolor="skyblue">
+                            <svg width="30" height="100">
+                            <text x="50" y="90" transform="rotate(90, 50, 50)" text-anchor="middle" font-family="Arial" font-size="18">
+                                inventario
+                            </text>
+                            </svg>
+                        </td>
+                       
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox">300</td>
+                   
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox">200</td>
+                        <td rowspan="3" bgcolor="magenta">
+                            <svg width="30" height="100">
+                                <text x="50" y="80" transform="rotate(90, 50, 50)" text-anchor="middle" font-family="Arial" font-size="18">
+                                    stock
+                                </text>
+                            </svg>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox">100</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox">0</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="10" bgcolor="gray"></td>
+                    </tr>
+                    <tr>
+                       <td colspan="2"></td>
+                       <td></td>
+                        <td>
+                            <input type="radio" name="mes" id="enero" value="enero">
+                            enero
+                        </td>
+                        <td><input type="radio" name="mes" id="enero" value="febrero"> febrero</td>
+                        <td><input type="radio" name="mes" id="enero" value="febrero"> marzo</td>
+                        <td><input type="radio" name="mes" id="enero" value="febrero"> abril</td>
+                        <td><input type="radio" name="mes" id="enero" value="febrero">mayo</td>
+                        <td><input type="radio" name="mes" id="enero" value="febrero">junio</td> 
+                        <td><input type="radio" name="mes" id="enero" value="febrero">julio</td>
+                    </tr>
+                    <tr>
+                        <th colspan="9" align="center">
+                            <svg width="115" height="100">
+                                <text x="80" y="30" transform="rotate(0, 50, 50)" text-anchor="middle" font-family="Arial" font-size="21">
+                                    tiempo
+                                </text>
+                            </svg>
+                        </th>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
