@@ -1,0 +1,42 @@
+/* #div1 {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to top right, #FF0000, #FFFFFF, #0000FF);
+    border: 2px solid black;
+    border-radius: 10px; 
+} */
+ body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+#sky {
+    background: linear-gradient(to top, #FF4500 40%, #FFD700);
+    height: 500px;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+#sun {
+    position: absolute;
+    top: 0;
+    left:   0;
+    right: 0;
+    bottom: 0;
+    margin: 250px auto;
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, #FFA500, #FF4500);
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.5);
+}
+#sea {
+    background: linear-gradient(to bottom, #001d29);
+    height: 50%;
+    margin: 0;
+}
