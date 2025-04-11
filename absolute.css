@@ -1,0 +1,117 @@
+.container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border: 2px solid gray;
+    padding: 20px;
+}
+.box {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.box1 {
+    background-color: pink;
+    border: 2px solid purple;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+.box2 {
+    background-color: lightblue;
+    position: absolute;
+    top: 2px;
+    left: 125px;
+    border: 2px solid blue;
+}
+.box3 {
+    background-color: orange;
+    border: 2px solid brown;
+    position: absolute;
+    top: 80px;
+    left: 165px;
+}
+.container2{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border: 2px solid gray;
+    padding: 20px;
+}
+#dos{
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    background-color: orange;
+    width: 80px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    box-shadow: gray 0px 0px 10px;
+}
+#uno{
+    position: absolute;
+    bottom: 10px;
+    left: 81px;
+    background-color: orange;
+    width: 80px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    box-shadow: gray 0px 0px 10px;
+}
+#tres{
+    position: absolute;
+    bottom: 10px;
+    left: 157px;
+    background-color: orange;
+    width: 80px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    box-shadow: gray 0px 0px 10px;
+}
+#cuatro{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: orange;
+    width: 242px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    box-shadow: gray 10px 0px 10px;
+}
+#cinco{
+    width: 80px;
+    background-color: orange;
+}
+.seis{
+    width: 80px;
+    background-color: orange;
+}
+.siete{
+    width: 80px;
+    background-color: orange;
+}
